@@ -203,10 +203,11 @@
                 "d2.4xlarge",
                 "d2.8xlarge",
                 "i2.xlarge",
-                "i2.2xlarge"
+                "i2.2xlarge",
+                "r4.xlarge"
             ],
             "ConstraintDescription": "Must be a valid EC2 instance type.",
-            "Default": "m4.xlarge",
+            "Default": "r4.xlarge",
             "Description": "Instance Type for Kafka brokers; select m3/m4 or i2 instance types for us-west-1 and sa-east-1",
             "Type": "String"
         },
@@ -359,7 +360,8 @@
                 "d2.4xlarge",
                 "d2.8xlarge",
                 "i2.xlarge",
-                "i2.2xlarge"
+                "i2.2xlarge",
+                "r4.xlarge"
             ],
             "ConstraintDescription": "Must be a valid EC2 instance type.",
             "Default": "m4.xlarge",
@@ -389,10 +391,11 @@
                 "m5.large",
                 "m5.xlarge",
                 "m5.2xlarge",
-                "m5.4xlarge"
+                "m5.4xlarge",
+                "r4.xlarge"
             ],
             "ConstraintDescription": "Must be a valid EC2 instance type.",
-            "Default": "m4.large",
+            "Default": "m5.large",
             "Description": "Instance Type for Zookeeper servers; select m3/m4 for us-west-1 and sa-east-1",
             "Type": "String"
         },

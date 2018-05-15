@@ -213,6 +213,10 @@
                 "m4.xlarge",
                 "m4.2xlarge",
                 "m4.4xlarge",
+                "m5.large",
+                "m5.xlarge",
+                "m5.2xlarge",
+                "m5.4xlarge",
                 "c3.xlarge",
                 "c3.2xlarge",
                 "c3.4xlarge",
@@ -221,7 +225,8 @@
                 "d2.4xlarge",
                 "d2.8xlarge",
                 "i2.xlarge",
-                "i2.2xlarge"
+                "i2.2xlarge",
+                "r4.xlarge"
             ],
             "ConstraintDescription": "Must be a valid EC2 instance type.",
             "Default": "m4.xlarge",
@@ -402,7 +407,8 @@
                 "d2.4xlarge",
                 "d2.8xlarge",
                 "i2.xlarge",
-                "i2.2xlarge"
+                "i2.2xlarge",
+                "r4.xlarge"
             ],
             "ConstraintDescription": "Must be a valid EC2 instance type.",
             "Default": "m4.xlarge",
@@ -431,7 +437,12 @@
                 "m3.xlarge",
                 "m4.large",
                 "m4.xlarge",
-                "m4.2xlarge"
+                "m4.2xlarge",
+                "m5.large",
+                "m5.xlarge",
+                "m5.2xlarge",
+                "m5.4xlarge",
+                "r4.xlarge"
             ],
             "ConstraintDescription": "Must be a valid EC2 instance type.",
             "Default": "m4.large",
